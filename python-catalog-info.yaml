@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: flask-app-template
+  description: Flask application template for backstage
+  tags:
+    - python
+    - flask
+
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/team-payments
