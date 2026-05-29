@@ -7,6 +7,8 @@ metadata:
   tags:
     - python
     - flask
+  annotations:
+    backstage.io/techdocs-ref: value
 
 spec:
   type: service
