@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 
 metadata:
-  name: flask-app-template
+  name: ${{ values.name }}
   description: Flask application template for backstage
   tags:
     - python
