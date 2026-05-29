@@ -1,0 +1,11 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ranjeet001
+spec:
+  profile:
+    name: ranjeet
+    email: rkpranjeet198@gmail.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+  memberOf: [team-payments]
