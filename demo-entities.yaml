@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: demo-service
+  description: Demo monitored service
+
+  links:
+    - url: http://localhost:3000
+      title: Grafana Dashboard
+      icon: dashboard
+    - url: http://localhost:9090
+      title: Prometheus
+      icon: show_chart
+
+  annotations:
+    prometheus.io/target: demo-service
+    prometheus.io/rule: demo_requests_total
+    grafana/dashboard-url: http://localhost:3000
+
+spec:
+  type: service
+  lifecycle: production
+  owner: guests
