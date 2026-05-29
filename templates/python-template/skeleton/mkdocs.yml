@@ -1,0 +1,7 @@
+site_name: Flask Service
+
+plugins:
+  - techdocs-core
+
+nav:
+  - Home: index.md
